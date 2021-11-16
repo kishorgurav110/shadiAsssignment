@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_launcher_background"
+        android:color="@color/purple_700"
+        android:state_selected="true"/>
+    <item android:drawable="@drawable/ic_launcher_background"
+        android:color="@color/purple_700"
+        android:state_selected="false"/>
+</selector>
+
+    <!--   -->
+    <!--   -->

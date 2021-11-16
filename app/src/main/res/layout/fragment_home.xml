@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_header"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="Profile Matches"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="85dp"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/conner_curve_white"
+        android:elevation="10dp"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_order_book_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_gravity="center"-->
+
+<!--        android:gravity="center"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--            android:id="@+id/bottom_navigation_orders"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:outlineSpotShadowColor="@color/colorSilver"-->
+<!--            app:elevation="10dp"-->
+<!--            android:outlineAmbientShadowColor="@color/colorSilver"-->
+<!--            android:background="@color/white"-->
+<!--            app:itemTextAppearanceActive="@style/NavigatioItemTextActive"-->
+<!--            app:itemTextAppearanceInactive="@style/NavigatioItemTextInactive"-->
+<!--            app:itemTextColor="@drawable/selector_orders"-->
+<!--            app:menu="@menu/menu_navigation" />-->
+<!--    </LinearLayout>-->
+</RelativeLayout>
